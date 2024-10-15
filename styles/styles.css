@@ -1,6 +1,5 @@
 
-
- html {
+html {
     line-height: 1.15; /* 1 */
     -webkit-text-size-adjust: 100%; /* 2 */
   }
@@ -8,10 +7,10 @@
 
   
   body {
-    margin: 0;
+    margin: 40px;
   }
   
-  
+ 
   
   main {
     display: block;
@@ -39,20 +38,20 @@
     font-size: 1em; /* 2 */
   }
   
-  
+
   
   a {
     background-color: transparent;
   }
   
-  
+
   
   abbr[title] {
     border-bottom: none; /* 1 */
     text-decoration: underline; /* 2 */
     text-decoration: underline dotted; /* 2 */
   }
-  
+
   
   b,
   strong {
@@ -60,7 +59,6 @@
   }
   
 
-  
   code,
   kbd,
   samp {
@@ -68,12 +66,13 @@
     font-size: 1em; /* 2 */
   }
   
+
+  
   small {
     font-size: 80%;
   }
   
- 
-  
+
   sub,
   sup {
     font-size: 75%;
@@ -90,8 +89,7 @@
     top: -0.5em;
   }
   
- 
-  
+
   img {
     border-style: none;
   }
@@ -109,20 +107,21 @@
     margin: 0; /* 2 */
   }
   
-
+ 
   
   button,
   input { /* 1 */
     overflow: visible;
   }
   
- 
+
+  
   button,
   select { /* 1 */
     text-transform: none;
   }
   
- 
+  
   
   button,
   [type="button"],
@@ -131,6 +130,7 @@
     -webkit-appearance: button;
   }
   
+ 
   
   button::-moz-focus-inner,
   [type="button"]::-moz-focus-inner,
@@ -150,11 +150,13 @@
   }
   
 
+  
   fieldset {
     padding: 0.35em 0.75em 0.625em;
   }
   
-
+  
+  
   legend {
     box-sizing: border-box; /* 1 */
     color: inherit; /* 2 */
@@ -164,13 +166,14 @@
     white-space: normal; /* 1 */
   }
   
- 
+
   
   progress {
     vertical-align: baseline;
   }
   
-
+ 
+  
   textarea {
     overflow: auto;
   }
@@ -190,7 +193,7 @@
     height: auto;
   }
   
- 
+
   
   [type="search"] {
     -webkit-appearance: textfield; /* 1 */
@@ -203,7 +206,7 @@
     -webkit-appearance: none;
   }
   
-
+ 
   
   ::-webkit-file-upload-button {
     -webkit-appearance: button; /* 1 */
@@ -211,26 +214,54 @@
   }
   
 
-  
   details {
     display: block;
   }
   
-
   
   summary {
     display: list-item;
   }
   
- 
+
   
   template {
     display: none;
   }
   
-  
+ 
   
   [hidden] {
     display: none;
   }
   
+
+  .header {
+    text-align: center;
+}
+
+h2{
+  
+font-size: 15px;
+font-weight: 400;
+line-height: 24px;
+text-align: left;
+color: #ccc;
+
+}
+
+div img {
+  margin-top: 30px
+}
+head {
+  margin-right: 50px;
+}
+table {
+  width: 20%; 
+  border-collapse: collapse; 
+}
+
+th, td {
+  padding: 10px; 
+  border: 1px solid black; 
+}
