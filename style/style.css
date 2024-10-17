@@ -1,0 +1,99 @@
+
+body {
+    font-family: "Ubuntu Mono", monospace;
+    font-weight: 400;
+    font-style: normal;
+}
+
+header {
+    width: 1200px;
+    height: 55px;
+    margin: 0 auto;
+    font-size: 0;
+    border-bottom: 0.3px solid #46A35880;
+    margin-bottom: 15px;
+}
+nav {
+    display: inline-block;
+    width: calc(100% - 250px);
+    text-align: center;
+
+}
+li {
+    display: inline-block;
+}
+button {
+    color: #fff;
+    background-color: #46A358;
+    width: 100px;
+height: 35px;
+border-radius: 6px;
+border: 0px;
+
+font-size: 16px;
+font-weight: 500;
+line-height: 20.11px;
+ }
+.menu {
+   
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 20.11px;
+    color: #3D3D3D;
+    text-decoration: none;
+    margin: 0px 25px;
+}
+.Home {
+font-weight: 700;  
+padding-bottom: 12.5px;
+border-bottom: 3px solid #46A358; 
+
+}
+.img {
+    display: inline-block;
+    width: 40%;
+}
+.text{
+    display: inline-block;
+    margin-left: 43px;
+    width: 50%;
+}
+.welcome {
+    width: 1200px;
+    background-color: #F5F5F5;
+    margin: 0 auto;
+    padding-bottom: 200px;
+}
+h1 {
+font-size: 70px;
+font-weight: 900;
+line-height: 70px;
+margin: 0px;
+}
+
+span {
+    color: #46A358;
+}
+.shop{
+    width: 140px;
+height: 40px;
+border-radius: 10px;
+background-color: #46A358;
+text-decoration: none;
+padding: 10px 25px;
+color: white
+}
+.p2 {
+    margin-bottom: 44px;
+font-size: 14px;
+font-weight: 400;
+line-height: 24px;
+
+}
+.p3 {
+ 
+    font-size: 14px;
+    font-weight: 500;
+    line-height: 16px;
+    letter-spacing: 0.1em;
+}
