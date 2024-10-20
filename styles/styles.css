@@ -1,0 +1,163 @@
+body {
+    font-family: 'Cera Pro';
+    margin: 0;
+    padding: 0;
+}
+
+.container {
+    max-width: 1200px;
+    margin: 0 auto;
+}
+
+.container-categories {
+    float: left;
+    width: 30%;
+    
+}
+
+.container-content {
+    float: right;
+    width: 70%;
+}
+
+.menu {
+    float: left ;
+}
+
+.sort-by {
+    float: right;
+    font-size: 15px;
+    font-weight: 400;
+    line-height: 16px;
+
+}
+
+.clear-float::after {
+    content: "";
+    display: block;
+    clear: both;
+}
+.categories {
+    height: 774px;
+    background-color: #FBFBFB;
+    margin-right: 50px;
+}
+h1 {
+    margin: 15px 0 0 15px;
+    font-size: 18px;
+    font-weight: 700;
+    line-height: 16px;
+
+
+}
+.section-list {
+    list-style-type: none;
+    font-size: 15px;
+    font-weight: 400;
+    line-height: 40px;
+}
+.categorie-btn {
+    color: #3D3D3D;
+}
+.menu-btn {
+    color: #3D3D3D;
+}
+
+a {
+    text-decoration: none;
+}
+
+.menu-btn {
+    margin-right: 27px;
+    font-size: 15px;
+    font-weight: 400;
+    line-height: 16px;
+    padding-bottom: 5px;
+}
+
+select {
+    border: 0px;
+}
+h3, p {
+    margin: 0px;
+    padding: 0;
+}
+.flash-img {
+    background-color: #FBFBFB;
+    height: 300px;
+    width: 250px;
+    margin-bottom: 10px;
+   
+}
+
+
+
+.container-card {
+    width: 100%;
+    height: 1190px;
+}
+
+
+.flash-card {
+    height: 350px;
+    width: 253px;
+    float: left;
+    margin: 0 40px 70px 0;
+}
+.images {
+    margin-top: 30px;
+}
+
+.name {
+    
+font-size: 16px;
+font-weight: 400;
+line-height: 16px;
+color: #3D3D3D;
+margin-bottom: 5px;
+}
+.price {
+    
+    font-size: 18px;
+    font-weight: 700;
+    line-height: 16px;
+    color: #46A358;
+}
+header {
+    margin-bottom: 33px;
+    height: 25px;
+    
+}
+.flash-card:nth-child(3n) {
+    margin-right: 0;
+}
+.menu-pages {
+    width: 230px;
+    margin-left: auto;
+}
+.page {
+   
+font-size: 18px;
+font-weight: 300;
+line-height: 16px;
+padding: 10px;
+border: 1px solid #E5E5E5;
+color: #3D3D3D;
+margin-right: 10px;
+border-radius: 4px;
+}
+
+.categorie-btn:hover {
+    font-weight: 700;
+    color: #46A358;
+}
+
+.menu-btn:hover {
+    font-weight: 700;
+    color: #46A358;
+    border-bottom: 2px solid #46A358;
+}
+.page:hover {
+    background-color:  #46A358;
+    color: white;
+}
