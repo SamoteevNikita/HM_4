@@ -1,0 +1,129 @@
+body {
+    font-family: "Cera Pro";
+    margin: 0px;
+    padding: 0px;
+}
+.height-block {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 30px;
+    margin: 70px 0px 140px;
+}
+.container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.summer-cactus {
+    display: flex;
+    background-color: rgb(251, 251, 251);
+    height: 300px;
+    max-width: 585px;
+    align-items: center;
+}
+.first-image {
+    height: 290px;
+}
+.text-container {
+    display: flex;
+    flex-direction: column;
+    margin-right: 30px;
+}
+.offer-header {
+    font-size: 18px;
+    font-weight: 900;
+    line-height: 24px;
+    text-align: end;
+}
+.offer-paragraph {
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 24px;
+    text-align: end;
+    color: rgb(114, 114, 114);
+    margin-bottom: 25px;
+}
+.offer-btn {
+    margin-left: auto;
+    color: white;
+    background-color: rgb(70, 163, 88);
+    padding: 10px 25px;
+    border-radius: 6px;
+}
+.styling-srends {
+    display: flex;
+    align-items: center;
+    background-color: rgb(251, 251, 251);
+    height: 300px;
+    max-width: 585px;
+}
+.blog-container {
+    margin-bottom: 70px;
+}
+.blog-posts {
+    text-align: center;
+    margin-bottom: 15px;
+}
+.about-shop {
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 24px;
+    color: rgb(114, 114, 114);
+    margin-bottom: 35px;
+    text-align: center;
+}
+.cards-container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 45px;
+}
+.cards {
+    max-width: 268px;
+    background-color: rgb(251, 251, 251);
+}
+.container-text {
+    margin-left: 10px;
+    margin-bottom: 10px;
+}
+.date {
+    font-size: 14px;
+    font-weight: 500;
+    line-height: 16px;
+    margin-bottom: 5px;
+    color: rgb(70, 163, 88);
+}
+.blog-name {
+    font-size: 20px;
+    font-weight: 700;
+    line-height: 26px;
+    margin-bottom: 5px;
+    color: rgb(61, 61, 61);
+}
+.blog-paragraph {
+    margin-bottom: 9px;
+    color: rgb(114, 114, 114);
+    font-family: "Cera Pro";
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 22px;
+    text-align: left;
+}
+.blog-btn {
+    display: flex;
+    color: rgb(61, 61, 61);
+    font-size: 14px;
+    font-weight: 500;
+    line-height: 16px;
+    align-items: center;
+}
+.arrow-bottom {
+    fill: rgb(61, 61, 61);
+}
+.blog-btn:hover {
+    color: #46A358;
+    
+}
+a {
+    text-decoration: none;
+}
