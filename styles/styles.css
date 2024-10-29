@@ -87,6 +87,7 @@ h3, p {
     height: 300px;
     width: 250px;
     margin-bottom: 10px;
+    position: relative;
    
 }
 
@@ -103,6 +104,8 @@ h3, p {
     width: 253px;
     float: left;
     margin: 0 40px 70px 0;
+    border-top: 1px solid transparent;
+    position: relative;
 }
 .images {
     margin-top: 30px;
@@ -160,4 +163,46 @@ border-radius: 4px;
 .page:hover {
     background-color:  #46A358;
     color: white;
+}
+
+.hover-button {
+    color: #3D3D3D;
+    width: 35px;
+    height: 35px;
+    border-radius: 4px;
+    background-color: #FFFFFF;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.hover-button:hover {
+    color: #46A358;
+}
+
+.flash-card:hover {
+    border-top: 1px solid #46A358; 
+    .inf-btn {
+        display: flex;
+    }
+}
+.inf-btn {
+    position: absolute;
+    bottom: 50px;
+    left: 60px;
+    gap: 10px;
+    display: none;
+}
+
+.SALE {
+    display: flex;
+    position: absolute;
+    top: 14px;
+    left: 0;
+    background-color: #46A358;
+    width: 80px;
+    height: 29px;
+    align-items: center;
+    justify-content: center;
+    color: #FFFFFF;
 }
