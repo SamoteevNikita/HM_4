@@ -1,0 +1,213 @@
+body {
+    font-family: 'Cera Pro';
+    display: flex;
+    height: 100vh;
+    align-items: center;
+    justify-content: center; 
+ }
+
+ .menu {
+    display: flex;
+    flex-direction: column;
+    align-items: center; 
+    height: 650px;
+    width: 400px; 
+    border-bottom: 10px solid #46A358;
+}
+.header {
+    display: flex;
+    justify-content: center; 
+    width: 100%;
+    font-size: 20px;
+    font-weight: 500;
+    line-height: 16px;
+    margin-bottom: 40px;
+    gap: 12px;
+}
+.header-btn {
+    color: #3D3D3D;
+    text-decoration: none;
+    transition: all 0.3s;
+}
+
+.header-btn2 {
+    color: #3D3D3D;
+    text-decoration: none;
+    transition: all 0.3s;
+}
+.header-btn2:hover {
+    color: #46A358;
+    transition: color 0.3s;
+}
+
+.header-btn:hover    {
+    color: #46A358;
+    transition: color 0.3s;
+}
+.login-h2 {
+    width: 100%;
+    font-size: 13px;
+    font-weight: 400;
+    margin-bottom: 15px;
+}
+
+.login-menu {
+    display: flex;
+    flex-direction: column;
+}
+.enter-imput-username {
+    color: #A5A5A5;
+    width: 300px;
+    height: 40px;
+    border: 1px solid #EAEAEA;
+    padding-left: 14px;
+    margin-bottom: 16px;
+    border-radius: 5px;
+}
+
+.enter-imput-email {
+    color: #A5A5A5;
+    width: 300px;
+    height: 40px;
+    border: 1px solid #EAEAEA;
+    padding-left: 14px;
+    border-radius: 5px;
+}
+.password {
+    display: flex;
+    align-items: center;
+    position: relative; 
+    width: 317.6px;
+}
+.enter-imput-password {
+    color: #A5A5A5;
+    width: 300px;
+    height: 40px;
+    border: 1px solid #EAEAEA;
+    padding-left: 14px;
+    border-radius: 5px;
+}
+.second-password {
+    color: #A5A5A5;
+    width: 300px;
+    height: 40px;
+    border: 1px solid #EAEAEA;
+    padding-left: 14px;
+    border-radius: 5px;
+}
+.Register {
+    width: 317.6px;
+    height: 45px;
+    border: none;
+    border-radius: 5px;
+    background-color: #46A358;
+    color: #FFFFFF;
+    
+}
+.hide-password {
+    position: absolute;
+    color: #3D3D3D;
+    top: 13px;
+    right: 15px;
+}
+
+input {
+    width: 294px;
+    height: 40px;
+    border: 1px solid #A5A5A5;
+    color: #3D3D3D;
+    text-indent: 12px;
+    margin-bottom: 16px;
+    border-radius: 5px;
+    
+}
+
+.line-cont {
+    margin-top: 36px;
+    display: flex;
+    align-items: center;
+    gap: 6px;
+}
+.in-line-text {
+    font-size: 13px;
+    font-weight: 400;
+    line-height: 16px;
+    color: #3D3D3D;
+}
+
+.line {
+    width: 97px;
+    height: 0px;
+    border: 1px solid;
+    color: #EAEAEA;
+
+
+}
+.line2 {
+    width: 97px;
+    height: 0px;
+    border: 1px solid;
+    color: #EAEAEA;
+
+}
+
+.lower-btn-Google  {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 0;
+    margin: 0;
+    font-size: 13px;
+    font-weight: 500;
+    line-height: 16px;
+    width: 300px;
+    height: 45px;
+    border: 1px solid #EAEAEA;
+    color: #727272;
+    background-color: #fff;
+    border-radius: 5px;
+    transition: all 0.5s linear;
+    margin-bottom: 15px;
+    margin-top: 27px;
+    gap: 9px;
+}
+.lower-btn-facebook {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 300px;
+    height: 45px;
+    border: 1px solid #EAEAEA;
+    color: #727272;
+    background-color: #fff;
+    border-radius: 5px;
+    transition: all 0.5s linear;
+    gap: 9px;
+}
+
+
+.Register,
+.lower-btn-Google,
+.lower-btn-facebook {
+    transition: background-color 0.3s, color 0.3s;
+}
+
+.Register:hover {
+    background-color: #3C8F4D; 
+}
+
+.lower-btn-Google:hover {
+    background-color: #C1351E;
+}
+
+.lower-btn-facebook:hover {
+    background-color: #2E4E85; 
+}
+
+
+.enter-imput-username:hover,
+.enter-imput-email:hover,
+.enter-imput-password:hover,
+.second-password:hover {
+    border-color: #46A358;
+}
